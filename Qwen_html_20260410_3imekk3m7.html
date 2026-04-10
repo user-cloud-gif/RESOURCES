@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Game Downloads</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        h1 {
+            color: #333;
+        }
+        .game-card {
+            background: white;
+            border-radius: 8px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .game-card h2 {
+            color: #2c3e50;
+            margin-top: 0;
+        }
+        .game-card p {
+            color: #666;
+            line-height: 1.6;
+        }
+        .download-btn {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .download-btn:hover {
+            background-color: #2980b9;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Game Studio</h1>
+        <p>Download my latest projects below</p>
+    </header>
+
+    <main>
+        <div class="game-card">
+            <h2>Inflater</h2>
+            <p>An exciting adventure game featuring pixel art and challenging levels. Version 1.0.</p>
+            <a href="./games/inflater.exe" class="download-btn" download>Download .EXE</a>
+        </div>
+
+        <div class="game-card">
+            <h2>Hopmon</h2>
+            <p>High-speed racing in outer space. Avoid asteroids and win the cup! Version 1.2.</p>
+            <a href="./games/hopmon.exe" class="download-btn" download>Download .EXE</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Your Name. All rights reserved.</p>
+        <p>Hosted on GitHub Pages</p>
+    </footer>
+</body>
+</html>
